@@ -8,6 +8,7 @@ os.chdir('nmapResult')
 filePath = '../ip.txt'
 ipList = nmapTest.getIpList(filePath)
 
+
 if (len(ipList) > 0):
     for ip in ipList:
         ip = str(ip)
